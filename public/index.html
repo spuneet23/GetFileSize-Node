@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Metadata</title>
+	<link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+
+    <div class="container">
+      <h1>File MetaData MicroService</h1>
+      <p> Submit a File to view its size in bytes</p>
+      <form method="post" enctype="multipart/form-data" action="/getFileSize">
+        <input type="file" name="upload" class="form-control">
+        <br>
+        <button type="submit" class="btn btn-success" id="#submit">Submit</button>
+      </form>
+    </div><!-- /.container -->
+
+   <script src="/js/jquery-1.10.2.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>
